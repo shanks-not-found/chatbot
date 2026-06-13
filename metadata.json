@@ -1,0 +1,6 @@
+{
+  "name": "Universal Memory Chat",
+  "description": "A chat application with cross-thread universal memory and active cognitive recall fueled by Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
