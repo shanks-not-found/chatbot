@@ -170,7 +170,6 @@ export default function App() {
   };
 
   const handleDeleteThread = async (id: string) => {
-    if (!confirm("Are you sure you want to delete this thread?")) return;
     try {
       const res = await fetch(`/api/thread/${id}?softDelete=${softDelete}`, {
         method: 'DELETE'
